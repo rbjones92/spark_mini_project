@@ -1,0 +1,3 @@
+Row(make='Mercedes', year='2015', incident='A', count=2)
+Row(make='Mercedes', year='2016', incident='A', count=1)
+Row(make='Nissan', year='2003', incident='A', count=1)
