@@ -55,9 +55,12 @@ rdd2 = df.rdd.map(lambda x: fill_nulls(x))
 rdd2 = rdd2.toDF(['incident','vin','make','year'])
 
 result = rdd2.groupBy('make','year','incident').count().where(col('incident') == 'A')
-result.show()
+
+rdd3 = result.rdd
+
+rdd3.coalesce(1).saveAsTextFile('newfile')
 
 
 
-
+ 
 
