@@ -4,7 +4,7 @@
 This project is an Apache Spark Mini Project through Springboard to refactor a post-sales report utilizing Spark. 
 
 ## Description
-This project was essentially an ETL of .csv data into a new set of data with summary counts that we were looking for. We needed to replace missing values of data, and 
+This project is essentially an ETL of .csv data into a new set of data with summary counts that we were looking for. We needed to replace missing values of data, and 
 programmatically count incidients of a certain type "A", for accident. 
 
 ## Technologies
